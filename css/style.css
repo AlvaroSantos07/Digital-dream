@@ -1,0 +1,51 @@
+body{
+    background:linear-gradient(var(--primaria) ,var(--secundaria));
+}
+:root{
+    --primaria: rgb(0, 0, 0);
+    --secundaria: #150571;
+    --tittle: #008ee0;
+    --redi: rgb(15, 93, 62);
+    --botao: black;
+    --backgroundbutton: rgb(8, 11, 115);
+}
+
+.potencial{
+    text-decoration: none;
+    color: var(--tittle);
+}
+.title{
+    color: white;
+    text-decoration: none;
+
+}
+.listbutton{
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-color: var(--backgroundbutton);
+    background-color: var(--botao);
+    color: white;
+}
+.listbutton:hover{
+    background-color: var(--backgroundbutton);
+    transition: 1s;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-color: var(--backgroundbutton);
+}
+
+.gridbutton{
+    background-color: black;
+    border-color: var(--backgroundbutton);
+}
+.gridbutton:hover{
+    background-color: var(--backgroundbutton);
+    border-color: var(--backgroundbutton);
+}
+
+
+.image1:hover{
+    transform: rotate(20deg);
+    transition: 0.5s;
+    cursor: alias;
+}

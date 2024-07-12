@@ -1,0 +1,72 @@
+.container{
+    color: #000000;
+}
+
+.navigation{
+    background: linear-gradient(to right, var(--primaria), var(--secundaria));
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.search{
+    border-radius: 20px;
+}
+
+:root{
+    --primaria: black;
+    --secundaria: #150571;
+}
+
+.card {
+    border: none;
+    outline: none;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transition: .3s;
+    width: 300px; /* Largura desejada */
+    height: 590px; /* Altura desejada */
+}
+
+.card:hover{
+    transform: translateY(-15px);
+
+
+}
+.productbutton {
+    background-color: #150571;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 90px; /* Distância da parte inferior do contêiner */
+    left: 50%; /* Centralizando o botão horizontalmente */
+    transform: translateX(-50%); /* Ajuste para centralizar */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    color: white; /* Cor do texto do botão */
+}
+
+.productbutton:hover{
+    background-color: #150571b1;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background: #000000;
+    margin: 20px 0;
+}
+.search-box{
+    height: 25px;
+    color: #000000; 
+}
+.cart-icon {
+    margin-right: 30px;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}

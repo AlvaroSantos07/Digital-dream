@@ -1,0 +1,103 @@
+body {
+    margin: 2px;
+}
+ 
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(3, 8, 3); /* Verde */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.left-login > h1 {
+    color: #ff0000; /* Vermelho */
+}
+ 
+.right-login {
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px 85px;
+    background: rgb(0, 0, 255); /* Azul */
+    border-radius: 45px;
+    box-shadow: 0px 20px 20px #00000056;
+}
+ 
+.card-login > h1 {
+    color: #ff0000; /* Vermelho */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+ 
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+ 
+.textfield > input {
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(255, 0, 0); /* Vermelho */
+    color: #008000; /* Verde */
+    font-size: 15pt;
+    box-shadow: 0px 20px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+ 
+.textfield > label {
+    color: #0000ff; /* Azul */
+}
+
+.main-login {
+    background-color: rgb(14, 226, 216); /* Verde */
+    color: #14ecda;
+    padding: 50px;
+    text-align: center;
+    
+}
+.logotype{
+
+    padding-left: 100%;
+}
+
+.right-login {
+    background-color:rgb(14, 226, 216);/* Azul */
+    padding: 50px;
+}
+
+.card-login {
+    background-color: #ffffff; /* Vermelho */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-login {
+    width: 100%;
+}

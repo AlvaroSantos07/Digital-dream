@@ -1,0 +1,125 @@
+.banner{
+    background-color: black;
+
+}
+:root{
+    --primaria: #e11f54;
+    --secundaria: #070606;
+    --greendd: blue;
+    --greend: #02dfab;
+}
+.title{
+    color: white;
+}
+.titlee{
+    color: var(--greend);
+}
+.pecas{
+    height: 300px;
+    overflow-y: scroll;
+}
+hr{
+    border: none;
+    height: 2px;
+    background: #fff7f7;
+    margin: 20px 0;
+}
+.textB{
+    color: var(--greendd);
+}
+
+.imageAs{
+    transform: translateX(0px);
+    animation: float 6s ease-out infinite;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.build{
+    background: linear-gradient(var(--secundaria), var(--secundaria), var(--greendd));
+    border-radius: 50px;
+    color: white;
+}
+.blocoBuild{
+    background-color: #000000;
+    color: antiquewhite;
+    height: 300px;
+    width: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 grey;
+}
+
+.image{
+    cursor: pointer;
+}
+.exit{
+    cursor: pointer;
+}
+
+.teste{
+    box-shadow: 0 0 50px 0 var(--greendd);
+    border-radius: 20px;
+}
+
+.teste2{
+    box-shadow: 0 0 50px 0 var(--greendd);
+    border-radius: 20px;
+}
+
+.card{
+    background-color: #fffefe;
+    border-color: var(--greendd);
+
+    .stars{
+        color: red;
+    }
+
+    button{
+        color: aqua;
+    }
+}
+
+
+.sta{
+    z-index: -2;
+	width: 2px;
+	height: 1px;
+	border-radius: 50%;
+	box-shadow: 50px 30px white,
+100px 80px white,
+80px 120px white,
+300px 20px white,
+250px 130px white,
+200px 50px white,
+150px 100px white,
+80px 40px white,
+30px 80px white,
+
+
+-200px -10px white;
+    animation: anim-stars 15s linear infinite;
+}
+
+@keyframes anim-stars {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(150px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+

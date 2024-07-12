@@ -1,0 +1,132 @@
+.novoMenu {
+    background: linear-gradient(to right, #000000, #0000FF);
+    padding: 20px 0;
+    
+    
+}
+
+.menu-top-right {
+    position: absolute;
+    top: 20px; /* Ajuste conforme necessário */
+    right: 20px; /* Ajuste conforme necessário */
+    display: flex;
+    align-items: center;
+}
+
+
+.sobrenos{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    
+}
+
+#MenuItens {
+
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#MenuItens li {
+    
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+#MenuItens li a {
+    text-decoration: none;
+    display: block;
+    width: 110px;
+    margin: 20px auto;
+    padding: 10px 10px;
+    background-color: #32e27f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#MenuItens li a:hover {
+    color: #0c0303;
+}
+
+/* Estilos para o carrinho de compras */
+.corpo-categorias {
+    padding: 40px 20px;
+}
+
+.cart-items {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cart-items table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-items th,
+.cart-items td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.cart-items th {
+    background-color: #f4f4f4;
+}
+
+.total-price {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.checkout-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #32e27f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.checkout-button:hover {
+    background-color: #42e27f;
+}
+/* Estilo para o botão de remover */
+.remove-button {
+    width: 25px; /* Defina a largura desejada */
+    height: 25px; /* Defina a altura desejada */
+    cursor: pointer; /* Mude o cursor para indicar que é clicável */
+}

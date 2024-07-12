@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to right, var(--primaria),var(--primaria), var(--secundaria)) ;
+}
+
+:root{
+    --primaria: #14084b ;
+    --secundaria: #201234;
+    --titleDecoration: #e01f54;
+    --green: #02dfab;
+}
+.logo{
+    cursor: pointer;
+}
+ion-icon{
+    color: var(--titleDecoration);
+    cursor: pointer;
+}
+.title{
+    color: white;
+    .red{
+        color: red;
+    }
+}
+.titlee{
+    color: var(--green);
+}
+
+.aboutMe{
+    color: white;
+}
+.green{
+    color: var(--green);
+}
+
+.image{
+    background-color: #14084b;
+    max-height: max-content;
+    max-width: max-content;
+}
+
+.imagea{
+    background-color: #e01f54;
+}
+
+.textto{
+    background-color: aqua;
+}
